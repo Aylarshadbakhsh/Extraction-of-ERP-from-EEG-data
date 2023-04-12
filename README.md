@@ -1,1 +1,2 @@
 # Extraction-of-ERP-from-EEG-data
+Here we use synchronous averaging to detect event-related potentials from noisy EEG. Required data is available in ex2data.mat file. The variants are EEG signal,indf(starting point of per regular stimuli), and indd(starting point of per irregular stimuli). In normal conditions, the response to regular stimuli is different from irregular one. We average the responses to regular and irregular stimuli separately and estimate SNR.
